@@ -1,4 +1,13 @@
 /* Basic editor styles */
+
+.App {
+  padding: 24px;
+}
+
+.ProseMirror {
+  outline: none
+}
+
 .ProseMirror > * + * {
   margin-top: 0.75em;
 }
@@ -51,4 +60,11 @@
   border: none;
   border-top: 2px solid rgba(13, 13, 13, 0.1);
   margin: 2rem 0;
+}
+
+.ProseMirror .mention {
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.3rem;
+  box-decoration-break: clone;
 }
